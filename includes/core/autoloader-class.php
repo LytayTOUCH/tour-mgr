@@ -20,19 +20,19 @@ class Autoloader{
     return $this->loadDependencies($classname, 'includes/core/','-class', '.php' );
   }
   public function loadAdminController($classname){
-    return $this->loadDependencies($classname, 'admin/controllers/','-admin-class', '.php' );
+    return $this->loadDependencies($classname, 'admin/controllers/','-class', '.php' );
   }
   public function loadAdminModels($classname){
-    return $this->loadDependencies($classname, 'admin/models/','-admin-class', '.php' );
+    return $this->loadDependencies($classname, 'admin/models/','-class', '.php' );
   }
   public function loadAdminViews($classname){
-    return $this->loadDependencies($classname, 'admin/views/','-admin-class', '.php' );
+    return $this->loadDependencies($classname, 'admin/views/','-class', '.php' );
   }
   public function loadAdminLibs($classname){
-    return $this->loadDependencies($classname, 'admin/libs/','-admin-class', '.php' );
+    return $this->loadDependencies($classname, 'admin/libs/','-class', '.php' );
   }
   public function loadTables($classname){
-    return $this->loadDependencies($classname, 'includes/database/tables/','-class-table', '.php' );
+    return $this->loadDependencies($classname, 'includes/database/tables/','-class', '.php' );
   }
 
   public function loadDependencies($classname, $dir_path, $alias_name, $extension){

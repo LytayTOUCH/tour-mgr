@@ -1,0 +1,90 @@
+#wpadminbar #wp-admin-bar-customlink .ab-icon:before {
+    content: '\f106';
+    top: 3px;
+}
+
+#wpadminbar #wp-admin-bar-customlink{
+  display: block;
+}
+
+#wpadminbar #wp-admin-bar-tostov-page .ab-icon:before {
+    content: '\f226';
+    top: 3px;
+}
+
+#wpadminbar #wp-admin-bar-tostov-page{
+  display: block;
+}
+
+#wpadminbar #wp-admin-bar-tostov-config .ab-icon:before {
+    content: '\f308';
+    top: 3px;
+}
+
+#wpadminbar #wp-admin-bar-tostov-config{
+  display: block;
+}
+
+#wpadminbar #wp-admin-bar-tostov-logout .ab-icon:before {
+    content: '\f310';
+    top: 3px;
+}
+
+#wpadminbar #wp-admin-bar-tostov-logout{
+  display: block;
+}
+
+#wpadminbar #wp-admin-bar-tostov-user .ab-icon:before {
+    content: '\f110';
+    top: 3px;
+}
+
+#wpadminbar #wp-admin-bar-tostov-user{
+  display: block;
+}
+
+@media screen and (max-width: 782px) {
+  #wpadminbar #wp-admin-bar-customlink .ab-icon:before {
+    top: 0;
+    line-height: 53px;
+    height: 46px !important;
+    text-align: center;
+    width: 52px;
+    display: block;
+  }
+  #wpadminbar #wp-admin-bar-tostov-page .ab-icon:before {
+    top: 0;
+    line-height: 53px;
+    height: 46px !important;
+    text-align: center;
+    width: 52px;
+    display: block;
+  }
+  #wpadminbar #wp-admin-bar-tostov-logout .ab-icon:before {
+    top: 0;
+    line-height: 53px;
+    height: 46px !important;
+    text-align: center;
+    width: 52px;
+    display: block;
+  }
+  #wpadminbar #wp-admin-bar-tostov-user .ab-icon:before {
+    top: 0;
+    line-height: 53px;
+    height: 46px !important;
+    text-align: center;
+    width: 52px;
+    display: block;
+  }
+}
+
+#adminmenumain{
+  display: none;
+}
+#wpcontent{
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+#wpbody{
+  padding: 10px;
+}
