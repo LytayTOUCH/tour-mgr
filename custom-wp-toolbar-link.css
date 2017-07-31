@@ -88,3 +88,6 @@
 #wpbody{
   padding: 10px;
 }
+.wrap{
+  margin:0 !important;
+}
